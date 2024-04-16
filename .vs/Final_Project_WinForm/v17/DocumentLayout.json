@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\danh_sach_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\danh_sach_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\final_project_winform\\form_cs\\danh_sach_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\danh_sach_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\file_cs\\httprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\file_cs\\httprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\bangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\bangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\bangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\bangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\bangluong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\bangluong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\danh_sach_nhan_vien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\danh_sach_nhan_vien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|c:\\users\\thang\\onedrive - msft\\desktop\\oop\\btcuoiky\\vuducthang_cuoiky_gtctdl\\vuducthang_cuoiky_gtctdl\\final_project_winform\\form_cs\\danh_sach_nhan_vien.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{57F4D3AC-59F1-4941-901A-96D33C3EF9B4}|Final_Project_WinForm\\Final_Project_WinForm.csproj|solutionrelative:final_project_winform\\form_cs\\danh_sach_nhan_vien.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Danh_Sach_Nhan_Vien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs [Design]",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T01:10:52.226Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:35:13.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:35:12.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Danh_Sach_Nhan_Vien.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.cs",
+              "ViewState": "AQIAAGYBAAAAAAAAAADwv3wBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:27:22.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\File_CS\\HttpRequest.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\File_CS\\HttpRequest.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\File_CS\\HttpRequest.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\File_CS\\HttpRequest.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:05:12.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\LoginForm.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\LoginForm.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:06:14.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main_Form.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Main_Form.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\Main_Form.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Main_Form.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\Main_Form.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:07:08.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BangLuong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.cs [Design]",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\BangLuong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:14:40.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BangLuong.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\BangLuong.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAADwv0UAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:17:13.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BangLuong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.Designer.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\BangLuong.Designer.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\BangLuong.Designer.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\BangLuong.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:29:56.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Danh_Sach_Nhan_Vien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.Designer.cs",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.Designer.cs",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.Designer.cs",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.Designer.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwE4CAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:29:34.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Danh_Sach_Nhan_Vien.resx",
+              "DocumentMoniker": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.resx",
+              "RelativeDocumentMoniker": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.resx",
+              "ToolTip": "C:\\Users\\thang\\OneDrive - MSFT\\Desktop\\oop\\BTCuoiKy\\VuDucThang_cuoiky_gtctdl\\VuDucThang_cuoiky_gtctdl\\Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.resx",
+              "RelativeToolTip": "Final_Project_WinForm\\Form_CS\\Danh_Sach_Nhan_Vien.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-16T21:29:39.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
