@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DocumentFormat.OpenXml;
 using Final_Project_WinForm.File_CS;
 using Final_Project_WinForm.Form_CS;
 using Newtonsoft.Json;
@@ -37,8 +38,8 @@ namespace Final_Project_WinForm
                 responeGet<NhanVien_CongChuc> dataCongChuc = JsonConvert.DeserializeObject<responeGet<NhanVien_CongChuc>>(jsonCongChuc);
                 string jsonHopDong = await HttpRequest.GetNhanVien("nhanvienhopdong");
                 responeGet<NhanVien_HopDong> dataHopDong = JsonConvert.DeserializeObject<responeGet<NhanVien_HopDong>>(jsonHopDong);
-                Global.danh_sach_nhan_vien_cong_chuc = dataCongChuc.Nhanvien;
-                Global.danh_sach_nhan_vien_hop_dong = dataHopDong.Nhanvien;
+                Global.danh_sach_nhan_vien_cong_chuc.danhSachNhanVien = dataCongChuc.Nhanvien;
+                Global.danh_sach_nhan_vien_hop_dong.danhSachNhanVien = dataHopDong.Nhanvien;
                 setUpData();
             }
             catch (Exception ex)
@@ -81,7 +82,7 @@ namespace Final_Project_WinForm
             //items.Add(new Item() { Text = , Value = 0 });
             listView1.FullRowSelect = true;
             listView2.FullRowSelect = true;
-            foreach (var item in Global.danh_sach_nhan_vien_cong_chuc)
+            foreach (var item in Global.danh_sach_nhan_vien_cong_chuc.GetAllNhanVien())
             {
                 ListViewItem item1 = new ListViewItem();
                 item1.Text = item.ma_so.ToString();
@@ -96,7 +97,7 @@ namespace Final_Project_WinForm
                 items.Add(new Item() { Text = item.ma_so, Value = item.ma_so});
             }
 
-            foreach (var item in Global.danh_sach_nhan_vien_hop_dong)
+            foreach (var item in Global.danh_sach_nhan_vien_hop_dong.GetAllNhanVien()) 
             {
                 ListViewItem item1 = new ListViewItem();
                 item1.Text = item.ma_so.ToString();
@@ -136,68 +137,76 @@ namespace Final_Project_WinForm
         }
         private async void btn_Fix_SV_Click(object sender, EventArgs e)
         {
-            if (nvcc != null)
+            double hsl;
+            if (double.TryParse(txt_hsl.Text.Replace(',', '.'), out hsl))
             {
-                // Tạo đối tượng nhân viên mới với thông tin cập nhật
-                NhanVien_CongChuc nhanvienEdit = new NhanVien_CongChuc(nvcc.ma_so, txt_ho_ten.Text, txt_email.Text, replaceFieldVNDToNumber(txt_nam_sinh.Text), txt_sdt.Text, txt_chuc_vu.Text, txt_phong_ban.Text, replaceFieldVNDToNumber(txt_lcb.Text), replaceFieldVNDToNumber(txt_pc.Text), replaceFieldVNDToNumber(txt_hsl.Text));
-
-                // Gửi yêu cầu cập nhật thông tin nhân viên
-                string result = await HttpRequest.PutNhanVien<NhanVien_CongChuc>(nvcc.ma_so, nhanvienEdit, "nhanviencongchuc");
-
-                // Tìm nhân viên cần cập nhật trong danh sách
-                NhanVien_CongChuc NhanvienFound = Global.danh_sach_nhan_vien_cong_chuc.FirstOrDefault(nv => nv.ma_so == nvcc.ma_so);
-
-                if (NhanvienFound != null)
+                if (nvcc != null)
                 {
-                    // Cập nhật thông tin của nhân viên trong danh sách
-                    NhanvienFound.ho_ten = nhanvienEdit.ho_ten;
-                    NhanvienFound.email = nhanvienEdit.email;
-                    NhanvienFound.nam_sinh = nhanvienEdit.nam_sinh;
-                    NhanvienFound.so_dien_thoai = nhanvienEdit.so_dien_thoai;
-                    NhanvienFound.chuc_vu = nhanvienEdit.chuc_vu;
-                    NhanvienFound.phong_ban = nhanvienEdit.phong_ban;
-                    NhanvienFound.luongCanBan = nhanvienEdit.luongCanBan;
-                    NhanvienFound.phuCap = nhanvienEdit.phuCap;
-                    NhanvienFound.heSoLuong = nhanvienEdit.heSoLuong;
+                    // Tạo đối tượng nhân viên mới với thông tin cập nhật
+                    NhanVien_CongChuc nhanvienEdit = new NhanVien_CongChuc(nvcc.ma_so, txt_ho_ten.Text, txt_email.Text, replaceFieldVNDToNumber(txt_nam_sinh.Text), txt_sdt.Text, txt_chuc_vu.Text, txt_phong_ban.Text, replaceFieldVNDToNumber(txt_lcb.Text), replaceFieldVNDToNumber(txt_pc.Text), hsl);
+                    // Gửi yêu cầu cập nhật thông tin nhân viên
+                    string result = await HttpRequest.PutNhanVien<NhanVien_CongChuc>(nvcc.ma_so, nhanvienEdit, "nhanviencongchuc");
+
+                    // Tìm nhân viên cần cập nhật trong danh sách
+                    NhanVien_CongChuc NhanvienFound = Global.danh_sach_nhan_vien_cong_chuc.GetNhanVienByMaSo(nvcc.ma_so);
+
+                    if (NhanvienFound != null)
+                    {
+                        // Cập nhật thông tin của nhân viên trong danh sách
+                        NhanvienFound.ho_ten = nhanvienEdit.ho_ten;
+                        NhanvienFound.email = nhanvienEdit.email;
+                        NhanvienFound.nam_sinh = nhanvienEdit.nam_sinh;
+                        NhanvienFound.so_dien_thoai = nhanvienEdit.so_dien_thoai;
+                        NhanvienFound.chuc_vu = nhanvienEdit.chuc_vu;
+                        NhanvienFound.phong_ban = nhanvienEdit.phong_ban;
+                        NhanvienFound.luongCanBan = nhanvienEdit.luongCanBan;
+                        NhanvienFound.phuCap = nhanvienEdit.phuCap;
+                        NhanvienFound.heSoLuong = nhanvienEdit.heSoLuong;
+                    }
+                    // Cập nhật giao diện
+                    setUpData();
+                    // Hiển thị kết quả
+                    MessageBox.Show(result);
                 }
-                // Cập nhật giao diện
-                setUpData();
-                // Hiển thị kết quả
-                MessageBox.Show(result);
-            }
-            else if(nvhd != null)
-            {
-                // Tạo đối tượng nhân viên mới với thông tin cập nhật
-                NhanVien_HopDong nhanvienEdit = new NhanVien_HopDong(nvcc.ma_so, txt_ho_ten.Text, txt_email.Text, replaceFieldVNDToNumber(txt_nam_sinh.Text), txt_sdt.Text, txt_chuc_vu.Text, txt_phong_ban.Text, replaceFieldVNDToNumber(txt_so_gio.Text), replaceFieldVNDToNumber(txt_tien_cong_1_gio.Text));
-
-                // Gửi yêu cầu cập nhật thông tin nhân viên
-                string result = await HttpRequest.PutNhanVien<NhanVien_HopDong>(nvhd.ma_so, nhanvienEdit, "nhanvienhopdong");
-
-                // Tìm nhân viên cần cập nhật trong danh sách
-                NhanVien_HopDong NhanvienFound = Global.danh_sach_nhan_vien_hop_dong.FirstOrDefault(nv => nv.ma_so == nvhd.ma_so);
-
-                if (NhanvienFound != null)
+                else if (nvhd != null)
                 {
-                    // Cập nhật thông tin của nhân viên trong danh sách
-                    NhanvienFound.ho_ten = nhanvienEdit.ho_ten;
-                    NhanvienFound.email = nhanvienEdit.email;
-                    NhanvienFound.nam_sinh = nhanvienEdit.nam_sinh;
-                    NhanvienFound.so_dien_thoai = nhanvienEdit.so_dien_thoai;
-                    NhanvienFound.chuc_vu = nhanvienEdit.chuc_vu;
-                    NhanvienFound.phong_ban = nhanvienEdit.phong_ban;
-                    NhanvienFound.so_gio_lam_viec = nhanvienEdit.so_gio_lam_viec;
-                    NhanvienFound.tien_cong_1_gio = nhanvienEdit.tien_cong_1_gio;
-                 
+                    // Tạo đối tượng nhân viên mới với thông tin cập nhật
+                    NhanVien_HopDong nhanvienEdit = new NhanVien_HopDong(nvcc.ma_so, txt_ho_ten.Text, txt_email.Text, replaceFieldVNDToNumber(txt_nam_sinh.Text), txt_sdt.Text, txt_chuc_vu.Text, txt_phong_ban.Text, replaceFieldVNDToNumber(txt_so_gio.Text), replaceFieldVNDToNumber(txt_tien_cong_1_gio.Text));
+
+                    // Gửi yêu cầu cập nhật thông tin nhân viên
+                    string result = await HttpRequest.PutNhanVien<NhanVien_HopDong>(nvhd.ma_so, nhanvienEdit, "nhanvienhopdong");
+
+                    // Tìm nhân viên cần cập nhật trong danh sách
+                    NhanVien_HopDong NhanvienFound = Global.danh_sach_nhan_vien_hop_dong.GetNhanVienByMaSo(nvhd.ma_so);
+
+                    if (NhanvienFound != null)
+                    {
+                        // Cập nhật thông tin của nhân viên trong danh sách
+                        NhanvienFound.ho_ten = nhanvienEdit.ho_ten;
+                        NhanvienFound.email = nhanvienEdit.email;
+                        NhanvienFound.nam_sinh = nhanvienEdit.nam_sinh;
+                        NhanvienFound.so_dien_thoai = nhanvienEdit.so_dien_thoai;
+                        NhanvienFound.chuc_vu = nhanvienEdit.chuc_vu;
+                        NhanvienFound.phong_ban = nhanvienEdit.phong_ban;
+                        NhanvienFound.so_gio_lam_viec = nhanvienEdit.so_gio_lam_viec;
+                        NhanvienFound.tien_cong_1_gio = nhanvienEdit.tien_cong_1_gio;
+
+                    }
+                    // Cập nhật giao diện
+                    setUpData();
+                    // Hiển thị kết quả
+                    MessageBox.Show(result);
                 }
-                // Cập nhật giao diện
-                setUpData();
-                // Hiển thị kết quả
-                MessageBox.Show(result);
+                else
+                {
+                    MessageBox.Show("Vui lòng chọn nhân viên để tiến hành chỉnh sửa");
+                }
             }
             else
             {
-                MessageBox.Show("Vui lòng chọn nhân viên để tiến hành chỉnh sửa");
+               
             }
+          
 
         }
 
@@ -207,10 +216,10 @@ namespace Final_Project_WinForm
             {
                string result = await HttpRequest.DeleteNhanVien(nvcc.ma_so, "nhanviencongchuc");
                 MessageBox.Show(result);
-                NhanVien_CongChuc nhanVienToRemove = Global.danh_sach_nhan_vien_cong_chuc.FirstOrDefault(nv => nv.ma_so == nvcc.ma_so);
+                NhanVien_CongChuc nhanVienToRemove = Global.danh_sach_nhan_vien_cong_chuc.GetNhanVienByMaSo(nvcc.ma_so);
                 if (nhanVienToRemove != null)
                 {
-                    Global.danh_sach_nhan_vien_cong_chuc.Remove(nhanVienToRemove);
+                    Global.danh_sach_nhan_vien_cong_chuc.RemoveNhanVien(nhanVienToRemove);
                 }
                 // Cập nhật giao diện
                 setUpData();
@@ -220,10 +229,10 @@ namespace Final_Project_WinForm
                 string result = await HttpRequest.DeleteNhanVien(nvhd.ma_so, "nhanvienhopdong");
                 MessageBox.Show(result);
                 // Tìm nhân viên cần cập nhật trong danh sách
-                NhanVien_HopDong nhanVienToRemove = Global.danh_sach_nhan_vien_hop_dong.FirstOrDefault(nv => nv.ma_so == nvhd.ma_so);
+                NhanVien_HopDong nhanVienToRemove = Global.danh_sach_nhan_vien_hop_dong.GetNhanVienByMaSo(nvhd.ma_so);
                 if (nhanVienToRemove != null)
                 {
-                    Global.danh_sach_nhan_vien_hop_dong.Remove(nhanVienToRemove);
+                    Global.danh_sach_nhan_vien_hop_dong.RemoveNhanVien(nhanVienToRemove);
                 }
                 // Cập nhật giao diện
                 setUpData();
@@ -274,7 +283,7 @@ namespace Final_Project_WinForm
             //comboBox1.SelectedItem.ToString();
             Item selectedValue = (Item)comboBox1.Items[selectedIndex];
             int timthay = 0;
-            foreach (var item in Global.danh_sach_nhan_vien_hop_dong)
+            foreach (var item in Global.danh_sach_nhan_vien_hop_dong.GetAllNhanVien())
             {
                 if (item.ma_so == selectedValue.Value)
                 {
@@ -285,7 +294,7 @@ namespace Final_Project_WinForm
             }
             if (timthay == 0)
             {
-                foreach (var item in Global.danh_sach_nhan_vien_cong_chuc)
+                foreach (var item in Global.danh_sach_nhan_vien_cong_chuc.GetAllNhanVien())
                 {
                     if (item.ma_so == selectedValue.Value)
                     {
@@ -379,6 +388,11 @@ namespace Final_Project_WinForm
                 ListViewItem item = lsv.SelectedItems[0];
                 comboBox1.SelectedIndex = comboBox1.FindStringExact(item.SubItems[0].Text);
             }
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -36,6 +36,7 @@ namespace Final_Project_WinForm
             this.listView1 = new System.Windows.Forms.ListView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.listView2 = new System.Windows.Forms.ListView();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -70,7 +71,6 @@ namespace Final_Project_WinForm
             this.txt_nam_sinh = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             panel7 = new System.Windows.Forms.Panel();
             panel4 = new System.Windows.Forms.Panel();
             panel7.SuspendLayout();
@@ -169,6 +169,17 @@ namespace Final_Project_WinForm
             panel4.Name = "panel4";
             panel4.Size = new System.Drawing.Size(657, 48);
             panel4.TabIndex = 118;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(315, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(131, 43);
+            this.button2.TabIndex = 103;
+            this.button2.Text = "Bảng Lương";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -532,17 +543,6 @@ namespace Final_Project_WinForm
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1146, 52);
             this.panel1.TabIndex = 115;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(315, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 43);
-            this.button2.TabIndex = 103;
-            this.button2.Text = "Bảng Lương";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Danh_Sach_Nhan_Vien
             // 

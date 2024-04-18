@@ -11,17 +11,17 @@ namespace Final_Project_WinForm.File_CS
     {
         public int luongCanBan { get; set; }
         public int phuCap { get; set; }
-        public int heSoLuong { get; set; }
+        public double heSoLuong { get; set; }
             
 
-        public NhanVien_CongChuc(string maSo, string hoTen, string email, int ns,string so_dien_thoai, string chuc_vu, string phong_ban,int luongCanBan, int phuCap, int heSoLuong )
+        public NhanVien_CongChuc(string maSo, string hoTen, string email, int ns,string so_dien_thoai, string chuc_vu, string phong_ban,int luongCanBan, int phuCap, double heSoLuong )
             : base(maSo, hoTen, email, ns, so_dien_thoai, chuc_vu, phong_ban) 
         {
             this.luongCanBan = luongCanBan;
             this.phuCap = phuCap;
             this.heSoLuong = heSoLuong;
         }
-        public int tinhluong()
+        public double tinhluong()
         {
             return this.luongCanBan*this.heSoLuong + this.phuCap;
         }
